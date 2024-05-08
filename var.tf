@@ -1,6 +1,6 @@
 # Variable: region - Specifies the AWS region
 variable "region" {
-  default     = "us-east-1" 
+  default     = "your_region" 
 }
 
 
