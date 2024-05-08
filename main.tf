@@ -59,3 +59,15 @@ module "web_instances" {
 }
 
 
+# Terraform Backend Configuration - Stores Terraform state remotely on aws
+//
+It will only work after the first run of the code
+
+terraform {
+  backend "s3" {
+    bucket         = "your_name_of_the_bucket"
+    key            = "terraform/state.tfstate"
+    region         = "your_region"
+  }
+}
+//
