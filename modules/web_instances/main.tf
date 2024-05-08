@@ -1,3 +1,4 @@
+
 # Variable: subnet_ids - Specifies the list of subnet IDs where instances will be deployed
 variable "subnet_ids" {
   type        = list(string)  
