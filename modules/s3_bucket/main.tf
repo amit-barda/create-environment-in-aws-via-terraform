@@ -1,3 +1,4 @@
+
 # Variable: bucket_name - Specifies the name of the S3 bucket
 variable "bucket_name" {
 }
