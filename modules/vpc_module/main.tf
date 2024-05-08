@@ -1,3 +1,4 @@
+
 # Variable: vpc_cidr_block - Specifies the CIDR block for the VPC
 variable "vpc_cidr_block" {
 }
