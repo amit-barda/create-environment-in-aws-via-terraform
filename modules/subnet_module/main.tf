@@ -1,3 +1,4 @@
+
 # Variable: vpc_id - Specifies the ID of the VPC where subnets will be created
 variable "vpc_id" {}
 
